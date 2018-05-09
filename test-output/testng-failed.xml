@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="package1.EditRules_List">
+        <methods>
+          <include name="Screen"/>
+        </methods>
+      </class> <!-- package1.EditRules_List -->
+      <class name="package1.DeleteRule">
+        <methods>
+          <include name="Screen"/>
+        </methods>
+      </class> <!-- package1.DeleteRule -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
