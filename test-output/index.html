@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\ext.cvelakaturichowd\eclipse-workspace\Ezee_Bill_Of_Landing\testng.xml</span>
+                    <span>C:\Users\ext.cvelakaturichowd\git\Ezee_Bill_Of_Landing\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -157,21 +157,21 @@
                   <a name="Screen">
                   </a> <!-- Screen -->
                   <span class="method-name">Screen</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;button id=&quot;btnFooter&quot; style=&quot;width:100px;&quot; type=&quot;button&quot; data-role=&quot;button&quot; class=&quot;k-button&quot; role=&quot;button&quot; aria-disabled=&quot;false&quot; tabindex=&quot;0&quot;&gt;...&lt;/button&gt; is not clickable at point (1237, 297). Other element would receive the click: &lt;div class=&quot;blockUI blockOverlay&quot; style=&quot;z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.6; cursor: wait; position: fixed;&quot;&gt;&lt;/div&gt;
+                  <div class="stack-trace">org.openqa.selenium.NoAlertPresentException: no alert open
   (Session info: chrome=66.0.3359.139)
   (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 116 milliseconds
+Command duration or timeout: 18 milliseconds
 Build info: version: &apos;3.0.0&apos;, revision: &apos;350cf60&apos;, time: &apos;2016-10-13 10:48:16 -0700&apos;
 System info: host: &apos;INCHEDTDM1800&apos;, ip: &apos;10.13.54.168&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\EXT~1.CVE\AppData\Local\Temp\scoped_dir8756_26344}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: b0c36f34056ca8f62796c1d1d8af1dd2
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\EXT~1.CVE\AppData\Local\Temp\scoped_dir2628_25658}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 8a4f602d012db452271bc5d7129ac480
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at package1.EditRules_List.Screen(EditRules_List.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:977)
+	at package1.EditRules_List.Screen(EditRules_List.java:56)
 	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
@@ -197,13 +197,13 @@ Session ID: b0c36f34056ca8f62796c1d1d8af1dd2
 SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[@id=&quot;42247Edit&quot;]//&apos; is not a valid XPath expression.
   (Session info: chrome=66.0.3359.139)
   (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 72 milliseconds
+Command duration or timeout: 47 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: &apos;3.0.0&apos;, revision: &apos;350cf60&apos;, time: &apos;2016-10-13 10:48:16 -0700&apos;
 System info: host: &apos;INCHEDTDM1800&apos;, ip: &apos;10.13.54.168&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\EXT~1.CVE\AppData\Local\Temp\scoped_dir10352_687}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: ddc73f958ad98a334c5785402180df1f
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\EXT~1.CVE\AppData\Local\Temp\scoped_dir11100_30898}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.139, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0dd4c8e1d3d9a2579f0367a834b9685f
 *** Element info: {Using=xpath, value=//*[@id=&quot;42247Edit&quot;]//}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
@@ -271,7 +271,7 @@ Session ID: ddc73f958ad98a334c5785402180df1f
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ext.cvelakaturichowd\eclipse-workspace\Ezee_Bill_Of_Landing\testng.xml</span>
+            <span class="header-content">C:\Users\ext.cvelakaturichowd\git\Ezee_Bill_Of_Landing\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -328,28 +328,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Screen')
 data.setCell(0, 2, 'package1.Booking_Search')
-data.setCell(0, 3, 108589);
+data.setCell(0, 3, 79585);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'Screen')
 data.setCell(1, 2, 'package1.Create_Rule')
-data.setCell(1, 3, 32468);
+data.setCell(1, 3, 30593);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'Screen')
 data.setCell(2, 2, 'package1.DeleteRule')
-data.setCell(2, 3, 19611);
+data.setCell(2, 3, 18786);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'Screen')
 data.setCell(3, 2, 'package1.EditRules_List')
-data.setCell(3, 3, 15736);
+data.setCell(3, 3, 13158);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'Screen')
 data.setCell(4, 2, 'package1.Rules_List')
-data.setCell(4, 3, 15223);
+data.setCell(4, 3, 11411);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -385,14 +385,14 @@ return data;
               <div class="chronological-class-name">package1.Create_Rule</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Screen</span>
-                <span class="method-start">108594 ms</span>
+                <span class="method-start">79601 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">package1.Rules_List</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Screen</span>
-                <span class="method-start">141065 ms</span>
+                <span class="method-start">110197 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -401,7 +401,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Screen</span>
-                <span class="method-start">156296 ms</span>
+                <span class="method-start">121615 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -410,7 +410,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Screen</span>
-                <span class="method-start">172146 ms</span>
+                <span class="method-start">134782 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
